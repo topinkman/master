@@ -1,0 +1,53 @@
+### --- COMPOSER / PHP ---
+/vendor/
+composer.phar
+
+### --- MAGENTO GENERATED FILES ---
+/generated/*
+!/generated/.htaccess
+/var/*
+!/var/.htaccess
+
+### --- PUB (STATIC & MEDIA) ---
+/pub/static/*
+!/pub/static/.htaccess
+/pub/media/*
+!/pub/media/.htaccess
+!/pub/media/customer/
+/pub/media/customer/*
+!/pub/media/downloadable/
+/pub/media/downloadable/*
+!/pub/media/import/
+/pub/media/import/*
+!/pub/media/theme/
+/pub/media/theme/*
+!/pub/media/theme_customization/
+/pub/media/theme_customization/*
+!/pub/media/wysiwyg/
+/pub/media/wysiwyg/*
+!/pub/media/tmp/
+/pub/media/tmp/*
+
+### --- ENV FILES ---
+app/etc/env.php
+# app/etc/config.php  ← خليه يطلع للـ Git (مهم)
+/vmyfiles/*
+### --- NODE / FRONTEND ---
+/node_modules/
+
+### --- LOGS ---
+*.log
+
+### --- SYSTEM / OS ---
+.DS_Store
+Thumbs.db
+
+### --- IDE / EDITOR ---
+/.idea/
+/.vscode/
+/nbproject/
+*.swp
+
+### --- OTHER ---
+/auth.json
+/.history/
