@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "050a16c7fb07758cf7d97e0229598552",
+    "content-hash": "3e4900cb97e6ddf113523f8f8fbab25c",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -18654,6 +18654,111 @@
                 "source": "https://github.com/magento/magento-zend-pdf/tree/1.16.7"
             },
             "time": "2026-08-03T08:38:57+00:00"
+        },
+        {
+            "name": "mageplaza/module-core",
+            "version": "1.5.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/module-core.git",
+                "reference": "2921d2d142e05f655ee3acbe45e9fdab8fbad729"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/module-core/zipball/2921d2d142e05f655ee3acbe45e9fdab8fbad729",
+                "reference": "2921d2d142e05f655ee3acbe45e9fdab8fbad729",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Mageplaza Core for Magento 2",
+            "support": {
+                "source": "https://github.com/mageplaza/module-core/tree/v1.5.19"
+            },
+            "time": "2026-08-07T08:41:52+00:00"
+        },
+        {
+            "name": "mageplaza/module-smtp",
+            "version": "4.7.26",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-smtp.git",
+                "reference": "047ab20439cbe7cdc1611f588df460ee7fa56101"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-smtp/zipball/047ab20439cbe7cdc1611f588df460ee7fa56101",
+                "reference": "047ab20439cbe7cdc1611f588df460ee7fa56101",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.5.19"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Smtp\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "SMTP Extension for Magento 2 helps the owner of store simply install SMTP (Simple Mail Transfer Protocol) server which transmits the messages into codes or numbers",
+            "keywords": [
+                "Facebook ADS",
+                "Marketing Automation",
+                "Messenger",
+                "email",
+                "email marketing",
+                "email settings",
+                "facebook",
+                "gmail smtp",
+                "google ads",
+                "magento 2",
+                "magento 2 smtp",
+                "magento smtp",
+                "mageplaza",
+                "sms",
+                "sms marketing",
+                "smtp",
+                "web push notification",
+                "whatsapp"
+            ],
+            "support": {
+                "source": "https://github.com/mageplaza/magento-2-smtp/tree/v4.7.26"
+            },
+            "time": "2026-09-22T02:53:55+00:00"
         },
         {
             "name": "marc-mabe/php-enum",
