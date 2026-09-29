@@ -32,6 +32,7 @@ composer.phar
 app/etc/env.php
 # app/etc/config.php  ← خليه يطلع للـ Git (مهم)
 /vmyfiles/*
+!/vmyfiles/info.php
 ### --- NODE / FRONTEND ---
 /node_modules/
 
